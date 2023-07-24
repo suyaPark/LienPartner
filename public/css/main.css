@@ -1,0 +1,417 @@
+header {
+  background-color: white;
+  position: relative;
+  padding: auto;
+}
+
+header.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: #617bb3;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 0.6%;
+  list-style: none;
+}
+header .container h5{
+  font-size: 30px;
+}
+
+section.hero {
+  background-color: #040d22;
+  position: relative;
+  overflow: hidden;
+}
+section.hero .container,
+section.hero3 .container{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+}
+section.hero .container h5,
+section.hero3 .container h5{
+  font-size: 30px;
+}
+section.hero .container h3{
+  font-size: 50px;
+
+  
+}
+
+section.hero .container h2{
+  font-size: 40px;
+    color: rgb(1, 88, 31);
+}
+
+section.hero .container h4{
+  font-size: 20px;
+}
+section.hero .container .btn{
+  margin-top: 20px;
+  background-color: green;
+  border:none;
+  border-radius: 20px;
+
+}
+
+section.hero img.mainimg{
+  max-width: 100%;
+  position: absolute;
+}
+
+section.categories .container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+section.categories .block1 {
+  position: relative;
+}
+
+
+
+/* HERO */
+#hero2 {
+  background-image: url(../images/bgmimg.png);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  padding: 0 80px;
+  line-height: 60px;
+}
+#hero2 .container{
+  padding-top: 35px;
+}
+#hero2 h1{
+  font-size: 45px;
+  color: #FFC727;
+}
+#hero2 span{
+  color: white;
+  font-size: 20px;
+}
+#hero2 .container .btn{
+  background-color: green;
+  color: #00563B;
+  border-radius: 40px;
+  border:none;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/* FILTER */
+#filter{
+  margin: 0 80px;
+  margin-top: 60px;
+}
+#filter ion-icon{
+  font-size: 30px;
+}
+#filter ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#filter button{
+  margin-top: 30px;
+  width: 110px;
+  height: 36px;
+  border-radius: 40px;
+  margin-right: 40px;
+  background-color: D9D9D9;
+  border: none;
+  font-size: 17px;
+}
+#filter button:hover{
+  background-color: #484B55;
+  color: white;
+}
+/* PRODUCTS */
+#products {
+  padding: -10px 80px;
+}
+#products .rank {
+  display: flex;
+  margin: 40px 0; 
+  align-items: center;   
+}
+#products .rank i{
+  padding-right: 10px;
+  color: #FFC727;
+  font-size: 30px;
+  padding-top: 5px;
+}
+#products .singlePro {
+  height: 416px;
+  width: 290px;
+  border: 1px solid #484B55;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#products .singlePro img{
+  width: 264px;
+  height: 271px;
+  border-radius: 20px;
+  margin: 13px;
+}
+#products .singlePro .proInfo{
+  margin-left: 13px;
+  line-height: 25px;
+}
+#products .singlePro .proInfo .sellerName{
+  font-size: 16px;
+  color: #484B55;
+}
+#products .singlePro .proInfo .starRank{
+  color: #FFC727;
+}
+#products .singlePro .proInfo .h3{
+  font-size: 20px;
+}
+#products .singlePro .proInfo .price{
+  color: #00563B;
+}
+#products .proList{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+section.categories .reviewtext{
+  position: absolute;
+  top: 390px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+section.categories .block1 .reviewtext {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.categories .block1 .reviewtext li.reviewbutton {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+section.categories .block1 .reviewtext li.reviewbutton a {
+  color: white;
+  text-decoration: none;
+}
+
+section.categories .block1 .reviewtext li.reviewbutton a:hover {
+  text-decoration: none;
+}
+.electronics{
+  margin-bottom: 20px;
+}
+
+.baby{
+  margin-bottom: 10px;
+}
+
+section.categories .block2 {
+  position: relative;
+}
+section.categories .reviewtext2{
+  position: absolute;
+  top: 170px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+section.categories .block2 .reviewtext2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.categories .block2 .reviewtext2 li.reviewbutton2 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+section.categories .block2 .reviewtext2 li.reviewbutton2 a {
+  color: white;
+  text-decoration: none;
+}
+
+section.categories .block2 .reviewtext2 li.reviewbutton2 a:hover {
+  text-decoration: none;
+}
+
+section.categories .reviewtext3{
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+section.categories .block2 .reviewtext3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.categories .block2 .reviewtext3 li.reviewbutton3 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+section.categories .block2 .reviewtext3 li.reviewbutton3 a {
+  color: white;
+  text-decoration: none;
+}
+
+section.categories .block2 .reviewtext3 li.reviewbutton3 a:hover {
+  text-decoration: none;
+}
+
+section.categories .block4 {
+  position: relative;
+}
+section.categories .reviewtext4{
+  position: absolute;
+  top: 170px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+section.categories .block4 .reviewtext4 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.categories .block4 .reviewtext4 li.reviewbutton4 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+section.categories .block4 .reviewtext4 li.reviewbutton4 a {
+  color: white;
+  text-decoration: none;
+}
+
+section.categories .block4 .reviewtext4 li.reviewbutton4 a:hover {
+  text-decoration: none;
+}
+
+section.categories .reviewtext5{
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+section.categories .block4 .reviewtext5 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.categories .block4 .reviewtext5 li.reviewbutton5 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+section.categories .block4 .reviewtext5 li.reviewbutton5 a {
+  color: white;
+  text-decoration: none;
+}
+
+section.categories .block4 .reviewtext5 li.reviewbutton5 a:hover {
+  text-decoration: none;
+}
+
+
+
+footer{
+  background-color: rgb(223, 223, 223, .3);
+}
+
+
+footer .container {
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+footer .container h5{
+  color: #1b346b;
+}
+
+footer .container .listup a{
+  text-decoration: none;
+  color: rgb(123, 123, 123);
+}
+
+footer .container .footercontact span{
+  text-decoration: none;
+  color: rgb(123, 123, 123);
+}
+footer .site-links {
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+footer .site-links li{
+  color: rgba(150, 150, 150, 0.8);
+  margin: 0;
+  margin-right: 20px;
+}
+footer .site-links a{
+  color: rgb(184, 184, 184);
+  margin: 0;
+  margin-right: 20px;
+}
+footer .site-links li:last-child {
+  margin-right: 0;
+}
